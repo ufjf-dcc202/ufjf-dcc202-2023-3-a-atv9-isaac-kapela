@@ -9,7 +9,7 @@ test.describe("index.html", () => {
     await expect(page.locator("meta[charset]")).toHaveAttribute(
       "charset",
       "UTF-8"
-    );
+    ); 
   });
 
   test('deve ter um meta viewport com atributo content com "width=device-width, initial-scale=1.0" no head', async ({
